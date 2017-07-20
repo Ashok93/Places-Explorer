@@ -1,0 +1,59 @@
+.GMap {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+.GMap-canvas {
+  top: 20px;
+  display: block;
+  float: right;
+  min-width: 60%;
+  height: 80%;
+}
+
+.list {
+  float: left;
+  width: 40%;
+  max-height: 80%;
+  overflow: scroll;
+  margin-top: 20px;
+}
+
+.list-group-item:hover{
+  cursor: pointer;
+}
+
+.search-area {
+  text-align: center;
+}
+
+.search-area p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.search-area button {
+  margin-left: 5px;
+}
+
+.rating {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.modal-wrapper {
+  text-align: center;
+}
+
+.modal-header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+body {
+  height: 100vh;
+}
